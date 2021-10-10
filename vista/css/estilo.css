@@ -1,0 +1,91 @@
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+
+}
+body{
+	
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	position: relative;
+	margin: 20px auto;
+	background: black;
+}
+#logo img{
+	position: absolute;
+	border-radius: 100%;
+	top: 10px;
+	left: 10px;
+	width: 95px;
+	height: 95px;
+}
+header h1{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	left: 350px;
+	
+
+}
+#salir a{
+	position: absolute;
+	color:white;
+	width: 40px;
+	height:40px;
+	top: 42px;
+    right: 19px;
+    font-size: 20px;
+
+}
+
+nav{
+	width: 1000px;
+	height: 48px;
+	position: relative;
+	margin: auto;
+	
+}
+.botones{
+	float: left;
+	width: 196px;
+	margin:0 2px;
+	height: 48px;
+	background: rgba(100,0,255,1);
+	color: white;
+	text-align: center;
+	line-height: 48px;
+	
+}
+a .botones:hover{
+	background: rgba(100,0,255,.4);
+		}
+a .botones:active{
+	background: rgba(255,0,100,1);
+		}
+.principal{
+	position: relative;
+	margin: 10px auto;
+	width: 1000px;
+	height: 900px;
+	background: white;
+}
+.login-logo img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 95px;
+	height: 95px;
+
+}
+ #CodiMa{
+	text-transform: uppercase;
+}
+
+</style>
